@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <main>
+        <canvas id="canvas"></canvas>
+        <div id="inputs">
+            <label for="initial_num">Starting number: </label>
+            <input type="number" id="initial_num" value="1" max="200">
+            <button onclick="make_graph()">Submit</button>
+            <button onclick="increase_size()">&uarr;</button>
+            <button onclick="decrease_size()">&darr;</button>
+        </div>
+
+        <p id="outputs">
+            
+        </p>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
